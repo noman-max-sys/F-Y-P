@@ -1,0 +1,30 @@
+/* Countries.css */
+.card-container {
+    padding: 20px;
+  }
+  
+  .custom-card {
+    width: 16rem; /* Reduced card width */
+    margin-right: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd; /* Light gray border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .custom-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .custom-card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #333; /* Darker text color */
+  }
+  
+  .custom-card-text {
+    font-size: 0.875rem;
+    color: #666; /* Gray text color */
+  }
+  

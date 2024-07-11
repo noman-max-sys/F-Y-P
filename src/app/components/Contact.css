@@ -1,0 +1,47 @@
+/* Contact.css */
+
+/* Parent container style */
+.contact-page-container {
+  display: flex;
+  justify-content: flex-end; /* Aligns the contact form to the right */
+  align-items: center; /* Vertically centers the form */
+  height: 100vh; /* Full height of the viewport */
+  background-image: url('https://guidanceplus.in/wp-content/uploads/2022/10/cxzfvxfb.jpg'); /* Path to your background image */
+  background-size: cover; /* Ensure the background covers the entire container */
+  background-position: center; /* Center the background image */
+  padding: 20px; /* Optional: Adds padding around the container */
+}
+
+/* Contact form style */
+.contact-form {
+  max-width: 400px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+.contact-form button[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-form button[type="submit"]:hover {
+  background-color: #444;
+}

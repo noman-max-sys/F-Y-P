@@ -1,0 +1,60 @@
+/* styles/school.css */
+.school-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  text-align: center;
+}
+
+.school-container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+}
+
+.school-content {
+  position: relative;
+  z-index: 1;
+}
+
+/* styles/school.css */
+.school-button {
+  text-decoration-color: black;
+  display: inline-block;
+  padding: 25px 50px; /* Increased padding to increase button size */
+  margin-top: 10px;
+  background-color: #bb2e2e;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.5em; /* Increased font size for better readability */
+}
+
+.school-button:hover {
+  background-color: #a62828; /* Darken hover color for contrast */
+}
+
+/* Add the button text */
+.school-button {
+ text-align: center;
+}
+
+.school-button span {
+ font-size: 1.5em;
+ font-weight: bold;
+ text-transform: uppercase;
+}
+
+.school-button span::after {
+ content: "Apply Now";
+ color: #000;
+}

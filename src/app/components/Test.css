@@ -1,0 +1,72 @@
+/* styles/TestComponent.css */
+.test-component {
+   display: flex;
+   align-items: center;
+   padding: 20px;
+   background-color: #f9f9f9;
+ }
+ 
+ .content {
+   flex: 1;
+   padding-right: 20px;
+ }
+ 
+ .content h3 {
+   color: #0070f3;
+   margin-bottom: 10px;
+ }
+ 
+ .content h1 {
+   font-size: 2em;
+   margin-bottom: 20px;
+   font-weight: bold;
+ }
+ 
+ .coaching-grid {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 20px;
+ }
+ 
+ .coaching-item {
+   background-color: white;
+   padding: 20px;
+   border-radius: 5px;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   text-align: center;
+ }
+ 
+ .coaching-item h4 {
+   margin-bottom: 10px;
+   font-size: 1.2em;
+   color: #0070f3;
+ }
+ 
+ .coaching-item p {
+   color: #333;
+ }
+ 
+ .image-container {
+   flex: 1;
+   position: relative;
+ }
+ 
+ .image-container .image-overlay {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   background: rgba(0, 0, 0, 0.5);
+   color: white;
+   padding: 20px;
+   text-align: center;
+ }
+ 
+ .image-container h3 {
+   font-size: 1.5em;
+ }
+ 
+ .image-container p {
+   font-size: 1em;
+ }
+ 
